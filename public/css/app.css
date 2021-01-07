@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.flexright {
+  display: flex;
+  justify-content: end;
+}
+
+.flexbetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .linetopheader {
+  background: #0282f9;
+}
+header .linetopheader ul {
+  display: flex;
+}
+header .linetopheader ul li {
+  color: white;
+  list-style: none;
+  font-size: 12px;
+  padding: 5px 30px;
+  font-weight: 600;
+}
+header .linetopheader ul li:last-child {
+  padding-right: 0px;
+}
+header .navbarheader img {
+  max-width: 80px;
+  margin: 15px;
+  margin-left: 0px;
+}
+header .navbarheader li {
+  list-style: none;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px;
+  color: #464646;
+  text-transform: uppercase;
+}
+
+main .backgroundhero {
+  height: 390px;
+  background: url("../img/bg-hero-home.jpg");
+  background-size: cover;
+  background-position: center;
+}
+main .backgroundhero img {
+  position: relative;
+  top: 165px;
+  left: 100px;
+  width: 150px;
+  border: 2px solid white;
+}
+main .comics {
+  background-color: #1c1c1c;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+main .comics ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .comics ul li {
+  flex-basis: calc(100% / 6);
+  list-style: none;
+}
+main .comics ul li a {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+main .comics ul li a img {
+  padding-bottom: 10px;
+}

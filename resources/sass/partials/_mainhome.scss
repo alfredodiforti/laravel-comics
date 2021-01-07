@@ -1,0 +1,41 @@
+main {
+    .backgroundhero {
+        height: 390px;
+        background: url('../img/bg-hero-home.jpg');
+        background-size: cover;
+        background-position: center;
+        img {
+            position: relative;
+            top: 165px;
+            left: 100px;
+            width: 150px;
+            border: 2px solid white;
+        }
+    }
+    .comics {
+        background-color: $mainbackground;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            li {
+                flex-basis: calc(100% / 6);
+                list-style: none;
+                a {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 10px;
+                    color: $textlighter;
+                    text-decoration: none;
+                    font-weight: 600;
+                    img {
+                        padding-bottom: 10px;
+                    }
+                }
+
+            }
+        }
+        
+    }
+}
