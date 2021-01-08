@@ -10,6 +10,11 @@
   margin: auto;
 }
 
+.containerb {
+  width: 700px;
+  margin: auto;
+}
+
 .flexright {
   display: flex;
   justify-content: end;
@@ -87,4 +92,18 @@ main .comics ul li a {
 }
 main .comics ul li a img {
   padding-bottom: 10px;
+}
+
+main .comic {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+main .comic h1, main .comic h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #003f5e;
+}
+main .comic p {
+  color: #6e6e6e;
+  font-weight: 600;
 }

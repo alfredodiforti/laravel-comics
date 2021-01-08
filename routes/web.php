@@ -12,9 +12,13 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//A
+// Route::get('/', function () {
 
-Route::get('/', function () {
+//     $comics = config('minidb');
+//     return view('home', compact('comics'));
+// })->name('home');
 
-    $comics = config('minidb');
-    return view('home', compact('comics'));
-});
+//B
+Route::get('/', 'Homecontroller@index')->name('home');
+Route::get('/comic/{id}', 'Comicontroller@show')->name('comic-det');

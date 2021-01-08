@@ -1,0 +1,15 @@
+main {
+    .comic {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        h1, h2 {
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: $detailtextcolor;
+        }
+        p {
+            color: $ptext;
+            font-weight: 600;
+        }
+    }
+}
