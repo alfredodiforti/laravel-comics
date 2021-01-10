@@ -8,7 +8,7 @@
         </div>
     </div>
     <div class="navbarheader container flexbetween">
-        <img src="{{ asset('img/logo.png')}}" alt="logo">
+        <a href="{{route('home')}}"><img src="{{ asset('img/logo.png')}}" alt="logo"></a>  
         <ul class="flexbetween">
             <li>characters</li>
             <li>comics</li>

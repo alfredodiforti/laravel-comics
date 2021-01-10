@@ -15,6 +15,15 @@
   margin: auto;
 }
 
+.flex {
+  display: flex;
+}
+
+.flexcol {
+  display: flex;
+  flex-direction: column;
+}
+
 .flexright {
   display: flex;
   justify-content: end;
@@ -24,6 +33,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.flexbetweenc {
+  display: flex;
+  justify-content: space-between;
 }
 
 header .linetopheader {
@@ -106,4 +120,34 @@ main .comic h1, main .comic h2 {
 main .comic p {
   color: #6e6e6e;
   font-weight: 600;
+}
+
+footer .linktop {
+  background: url(../img/footer-bg.jpg);
+  background-size: cover;
+  height: 390px;
+  width: 100%;
+}
+footer .linktop .linkleft {
+  padding-top: 30px;
+}
+footer .linktop .linkleft ul {
+  padding-right: 30px;
+}
+footer .linktop .linkleft ul h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-top: 20px;
+}
+footer .linktop .linkleft ul li {
+  list-style: none;
+  font-weight: 600;
+  color: #6e6e6e;
+}
+footer .linktop .img {
+  height: 390px;
+  width: 560px;
+  background-image: url(../img/logo-footer.png);
+  background-position: center;
 }
